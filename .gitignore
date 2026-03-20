@@ -1,0 +1,37 @@
+# --- Node / Common ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.eslintcache
+.stylelintcache
+
+# --- Environment variables (DŮLEŽITÉ: Nikdy nesdílejte hesla a klíče!) ---
+.env
+.env.local
+.env.*.local
+
+# --- Express / Backend ---
+server/node_modules/
+server/.env
+dist/
+build/
+
+# --- Vue / Frontend (Vite) ---
+client/node_modules/
+client/dist/
+client/stats.html
+
+# --- OS / Editor ---
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Logy ---
+logs
+*.log
+npm-debug.log*
